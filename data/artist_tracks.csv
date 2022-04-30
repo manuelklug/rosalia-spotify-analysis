@@ -1,4 +1,4 @@
-album_name,track_number,track_name,track_id,duration,acousticness,danceability,energy,instrumentalness,key,liveness,track_loudness,track_mode,track_speechiness,track_tempo,track_time_signature,track_valence
+album_name,track_number,song_title,id,duration,acousticness,danceability,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence
 MOTOMAMI,1,SAOKO,2FYGZDfsAnNsrm1gVbyKnG,137533,0.79,0.827,0.768,2.45e-05,0,0.497,-5.702,1,0.265,99.988,4,0.734
 MOTOMAMI,2,CANDY,70AYiGbc4mWZGEqiipBBDb,193480,0.885,0.638,0.49,0.0116,4,0.156,-5.726,0,0.226,179.905,4,0.403
 MOTOMAMI,3,LA FAMA (with The Weeknd),6Y46tOTRhkBamosyuWa6YX,188106,0.947,0.766,0.295,4.44e-05,0,0.119,-7.893,0,0.0464,136.016,4,0.805

@@ -71,10 +71,10 @@ def get_data(client_ID: str, client_secret: str, artist_ID: str) -> '_csv._write
     with open('data/artist_tracks.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
 
-        header = ["album_name", "track_number", "track_name", "track_id", "duration", 
+        header = ["album_name", "track_number", "song_title", "id", "duration", 
                   "acousticness","danceability", "energy", "instrumentalness", "key", 
-                  "liveness","track_loudness", "track_mode", "track_speechiness",
-                  "track_tempo", "track_time_signature", "track_valence"]
+                  "liveness","loudness", "mode", "speechiness",
+                  "tempo", "time_signature", "valence"]
 
         writer.writerow(header)
 
